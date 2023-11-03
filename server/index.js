@@ -1,8 +1,8 @@
 const Hapi = require('@hapi/hapi');
-
 const swaggerPlugin = require('./swagger');
-
-const routes = require('../lib/routes');
+const fs = require('fs');
+const path = require('path');
+const requireAll = require('require-all');
 
 const init = async () => {
     const server = Hapi.server({
@@ -13,11 +13,21 @@ const init = async () => {
     await server.register([
         swaggerPlugin]);
 
-    server.route(routes);
+        const routeModules = requireAll({
+          dirname: __dirname + '/../lib/routes', // Provide the absolute path to the 'lib/routes' directory
+          filter: /(.+)\.js$/, // Filter to load only .js files
+        });
+        // Loop through the loaded modules and add them to the server
+        for (const moduleName in routeModules) {
+          if (routeModules.hasOwnProperty(moduleName)) {
+            server.route(routeModules[moduleName]);
+            // console.log(`Route module '${moduleName}' loaded`);
+          }
+        }
 
-    await server.start();
-    console.log('Server running on %s', server.info.uri);
-
+        await server.start();
+        console.log('Server running on %s', server.info.uri);
+    
 };
 
 init();
