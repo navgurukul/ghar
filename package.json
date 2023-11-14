@@ -1,11 +1,9 @@
 {
   "name": "ghar",
   "version": "1.0.0",
-  "description": "",
   "main": "server/index.js",
   "directories": {
-    "lib": "lib",
-    "test": "test"
+    "lib": "lib"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -27,5 +25,14 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navgurukul/ghar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/navgurukul/ghar/issues"
+  },
+  "homepage": "https://github.com/navgurukul/ghar#readme",
+  "description": ""
 }
