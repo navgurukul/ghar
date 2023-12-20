@@ -14,14 +14,13 @@ const init = async () => {
         swaggerPlugin]);
 
         const routeModules = requireAll({
-          dirname: __dirname + '/../lib/routes', // Provide the absolute path to the 'lib/routes' directory
+          dirname:path.join(__dirname + '/../lib/routes'), // Provide the absolute path to the 'lib/routes' directory
           filter: /(.+)\.js$/, // Filter to load only .js files
         });
         // Loop through the loaded modules and add them to the server
         for (const moduleName in routeModules) {
           if (routeModules.hasOwnProperty(moduleName)) {
             server.route(routeModules[moduleName]);
-            // console.log(`Route module '${moduleName}' loaded`);
           }
         }
 

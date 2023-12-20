@@ -22,7 +22,4 @@ const swaggerPlugin = {
         ]);
     },
 };
-
-// ghar_node_server
-
 module.exports = swaggerPlugin;
