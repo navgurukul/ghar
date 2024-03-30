@@ -1,0 +1,1251 @@
+{
+  "ui": {
+    "value": {
+      "style": {},
+      "position": {
+        "start_x": 0,
+        "depth": 1,
+        "end_x": 884,
+        "start_y": 0,
+        "width": 864,
+        "height": 2222
+      }
+    }
+  },
+  "children": [
+    {
+      "ui": {
+        "value": {
+          "style": {
+            "default": {
+              "border": "1px solid rgb(57, 142, 243)"
+            }
+          },
+          "position": {
+            "start_x": 22,
+            "depth": 1,
+            "min_left": 14,
+            "end_x": 435,
+            "start_y": 21,
+            "min_top": 15,
+            "width": 413,
+            "height": 245
+          },
+          "class": "zc-lsection"
+        }
+      },
+      "children": [
+        {
+          "ui": {
+            "value": {
+              "icon": "zc-li-outline tech-laptop-1",
+              "style": {
+                "default": {
+                  "font_size": "76px"
+                }
+              },
+              "fixed": true,
+              "position": {
+                "start_x": 14,
+                "depth": 1,
+                "end_x": 90,
+                "start_y": 15,
+                "width": 76,
+                "height": 76
+              },
+              "theme_class": "default",
+              "class": "zc-ta-center"
+            }
+          },
+          "children": [],
+          "theme": "Static Icon",
+          "type": "component"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {
+                "default": {}
+              },
+              "class": ""
+            },
+            "holder": {
+              "style": {},
+              "class": ""
+            },
+            "label": {
+              "style": {},
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {}
+              },
+              "position": {
+                "start_x": 15,
+                "depth": 1,
+                "end_x": 405,
+                "start_y": 108,
+                "width": 390,
+                "height": 20
+              },
+              "theme_class": "default",
+              "class": "zcanvas-field"
+            }
+          },
+          "datatype": "text",
+          "children": [],
+          "id": "zc_field",
+          "type": "field"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {
+                "default": {}
+              },
+              "class": ""
+            },
+            "holder": {
+              "style": {
+                "default": {}
+              },
+              "class": ""
+            },
+            "label": {
+              "style": {
+                "default": {}
+              },
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {}
+              },
+              "position": {
+                "start_x": 15,
+                "depth": 1,
+                "end_x": 403,
+                "start_y": 144,
+                "width": 388,
+                "height": 20
+              },
+              "class": "zcanvas-field"
+            }
+          },
+          "datatype": "text",
+          "children": [],
+          "id": "zc_field",
+          "type": "field"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {},
+              "class": ""
+            },
+            "holder": {
+              "style": {},
+              "class": ""
+            },
+            "label": {
+              "style": {},
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {}
+              },
+              "position": {
+                "start_x": 16,
+                "depth": 1,
+                "end_x": 404,
+                "start_y": 180,
+                "width": 388,
+                "height": 20
+              },
+              "theme_class": "default",
+              "class": "zcanvas-field"
+            }
+          },
+          "datatype": "number",
+          "children": [],
+          "id": "zc_field",
+          "type": "field"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {},
+              "class": ""
+            },
+            "holder": {
+              "style": {},
+              "class": ""
+            },
+            "label": {
+              "style": {},
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {}
+              },
+              "position": {
+                "start_x": 15,
+                "depth": 1,
+                "end_x": 405,
+                "start_y": 215,
+                "width": 390,
+                "height": 20
+              },
+              "theme_class": "default",
+              "class": "zcanvas-field"
+            }
+          },
+          "datatype": "text",
+          "children": [],
+          "id": "zc_field",
+          "type": "field"
+        },
+        {
+          "ui": {
+            "autoheight": true,
+            "value": {
+              "style": {
+                "default": {
+                  "font_weight": "700",
+                  "padding": "10px",
+                  "border_right": "0px solid rgb(57, 142, 243)",
+                  "color": "rgba(51,51,51,1)",
+                  "border_left": "0px solid rgb(57, 142, 243)",
+                  "border_bottom": "1px solid rgb(57, 142, 243)",
+                  "font_size": "14px",
+                  "border_top": "0px solid rgb(57, 142, 243)",
+                  "text-align": "left"
+                }
+              },
+              "position": {
+                "start_x": 108,
+                "depth": 3,
+                "end_x": 385,
+                "start_y": 16,
+                "width": 277,
+                "height": 42
+              },
+              "class": "",
+              "value": "<span style=\"color: rgb(57, 142, 243); font-size: 16px;\">BASIC DETAILS</span>"
+            }
+          },
+          "children": [],
+          "theme": "Static Text",
+          "type": "component"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {},
+              "class": ""
+            },
+            "holder": {
+              "style": {},
+              "class": ""
+            },
+            "label": {
+              "style": {},
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {}
+              },
+              "position": {
+                "start_x": 109,
+                "depth": 1,
+                "end_x": 386,
+                "start_y": 69,
+                "width": 277,
+                "height": 20
+              },
+              "theme_class": "default",
+              "class": "zcanvas-field"
+            }
+          },
+          "datatype": "text",
+          "children": [],
+          "id": "zc_field",
+          "type": "field"
+        }
+      ],
+      "theme": "Custom Layout",
+      "type": "component"
+    },
+    {
+      "ui": {
+        "value": {
+          "style": {
+            "default": {
+              "border": "1px solid rgb(57, 142, 243)"
+            }
+          },
+          "position": {
+            "start_x": 449,
+            "depth": 1,
+            "min_left": 13,
+            "end_x": 848,
+            "start_y": 21,
+            "min_top": 15,
+            "width": 399,
+            "height": 245
+          },
+          "class": "zc-lsection"
+        }
+      },
+      "children": [
+        {
+          "ui": {
+            "autoheight": true,
+            "value": {
+              "style": {
+                "default": {
+                  "font_weight": "700",
+                  "padding": "10px",
+                  "border_right": "0px solid rgb(57, 142, 243)",
+                  "color": "rgba(51,51,51,1)",
+                  "background_color": "rgb(255, 255, 255)",
+                  "border_left": "0px solid rgb(57, 142, 243)",
+                  "border_bottom": "1px solid rgb(57, 142, 243)",
+                  "font_size": "14px",
+                  "border_top": "0px solid rgb(57, 142, 243)",
+                  "text-align": "left"
+                }
+              },
+              "position": {
+                "start_x": 13,
+                "depth": 1,
+                "end_x": 372,
+                "start_y": 15,
+                "width": 359,
+                "height": 42
+              },
+              "class": "",
+              "value": "<span style=\"color: rgb(57, 142, 243); font-size: 16px;\">KEY OPERATIONS</span>"
+            }
+          },
+          "children": [],
+          "theme": "Static Text",
+          "type": "component"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {
+                "default": {
+                  "background_color": "rgb(57, 142, 243)"
+                }
+              },
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {
+                  "background_color": "rgb(57, 142, 243)"
+                }
+              },
+              "position": {
+                "start_x": 28,
+                "depth": 1,
+                "end_x": 136,
+                "start_y": 83,
+                "width": 108,
+                "height": 31
+              },
+              "class": "zcanvas-field zcanvas-no-img-default zc-ta-center zccbutton"
+            }
+          },
+          "datatype": "button",
+          "children": [],
+          "id": "zc_action",
+          "type": "action"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {
+                "default": {}
+              },
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "hover": {
+                  "background_color": "var(--live_primary_btn_h_bClr)",
+                  "color": "rgba(255,255,255,1)"
+                },
+                "default": {
+                  "border": "1px solid rgba(0, 0, 0, 0.1)",
+                  "cursor": "pointer",
+                  "padding": "6px 10px",
+                  "outline": "none",
+                  "background_color": "rgb(57, 142, 243)",
+                  "color": "rgba(255,255,255,1)",
+                  "display": "inline-block",
+                  "font_size": "13px",
+                  "box-sizing": "border-box",
+                  "min-width": "70px",
+                  "text-align": "center"
+                }
+              },
+              "position": {
+                "start_x": 171,
+                "depth": 1,
+                "end_x": 319,
+                "start_y": 84,
+                "width": 148,
+                "height": 31
+              },
+              "class": "zcanvas-field zcanvas-no-img-default zc-ta-center zccbutton"
+            }
+          },
+          "datatype": "button",
+          "children": [],
+          "id": "zc_action",
+          "type": "action"
+        }
+      ],
+      "theme": "Custom Layout",
+      "type": "component"
+    },
+    {
+      "ui": {
+        "value": {
+          "style": {
+            "default": {
+              "border": "1px solid rgb(57, 142, 243)"
+            }
+          },
+          "position": {
+            "start_x": 20,
+            "depth": 1,
+            "min_left": 12,
+            "end_x": 433,
+            "start_y": 294,
+            "min_top": 10,
+            "width": 413,
+            "height": 328
+          },
+          "class": "zc-lsection"
+        }
+      },
+      "children": [
+        {
+          "ui": {
+            "autoheight": true,
+            "value": {
+              "style": {
+                "default": {
+                  "font_weight": "700",
+                  "padding": "10px",
+                  "border_right": "0px solid rgb(57, 142, 243)",
+                  "color": "rgba(51,51,51,1)",
+                  "border_left": "0px solid rgb(57, 142, 243)",
+                  "border_bottom": "1px solid rgb(57, 142, 243)",
+                  "font_size": "14px",
+                  "border_top": "0px solid rgb(57, 142, 243)",
+                  "text-align": "left"
+                }
+              },
+              "position": {
+                "start_x": 14,
+                "depth": 1,
+                "end_x": 395,
+                "start_y": 10,
+                "width": 381,
+                "height": 42
+              },
+              "class": "",
+              "value": "<span style=\"color: rgb(57, 142, 243); font-size: 16px;\">ASSET DETAILS</span>"
+            }
+          },
+          "children": [],
+          "theme": "Static Text",
+          "type": "component"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {},
+              "class": ""
+            },
+            "holder": {
+              "style": {},
+              "class": ""
+            },
+            "label": {
+              "style": {},
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {}
+              },
+              "position": {
+                "start_x": 12,
+                "depth": 1,
+                "end_x": 393,
+                "start_y": 65,
+                "width": 381,
+                "height": 20
+              },
+              "theme_class": "default",
+              "class": "zcanvas-field"
+            }
+          },
+          "datatype": "text",
+          "children": [],
+          "id": "zc_field",
+          "type": "field"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {},
+              "class": ""
+            },
+            "holder": {
+              "style": {},
+              "class": ""
+            },
+            "label": {
+              "style": {},
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {}
+              },
+              "position": {
+                "start_x": 13,
+                "depth": 2,
+                "end_x": 393,
+                "start_y": 99,
+                "width": 380,
+                "height": 20
+              },
+              "theme_class": "default",
+              "class": "zcanvas-field"
+            }
+          },
+          "datatype": "text",
+          "children": [],
+          "id": "zc_field",
+          "type": "field"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {},
+              "class": ""
+            },
+            "holder": {
+              "style": {},
+              "class": ""
+            },
+            "label": {
+              "style": {},
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {}
+              },
+              "position": {
+                "start_x": 14,
+                "depth": 1,
+                "end_x": 394,
+                "start_y": 134,
+                "width": 380,
+                "height": 20
+              },
+              "theme_class": "default",
+              "class": "zcanvas-field"
+            }
+          },
+          "datatype": "text",
+          "children": [],
+          "id": "zc_field",
+          "type": "field"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {},
+              "class": ""
+            },
+            "holder": {
+              "style": {},
+              "class": ""
+            },
+            "label": {
+              "style": {},
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {}
+              },
+              "position": {
+                "start_x": 13,
+                "depth": 1,
+                "end_x": 392,
+                "start_y": 169,
+                "width": 379,
+                "height": 20
+              },
+              "theme_class": "default",
+              "class": "zcanvas-field"
+            }
+          },
+          "datatype": "text",
+          "children": [],
+          "id": "zc_field",
+          "type": "field"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {},
+              "class": ""
+            },
+            "holder": {
+              "style": {},
+              "class": ""
+            },
+            "label": {
+              "style": {},
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {}
+              },
+              "position": {
+                "start_x": 14,
+                "depth": 1,
+                "end_x": 392,
+                "start_y": 204,
+                "width": 378,
+                "height": 20
+              },
+              "theme_class": "default",
+              "class": "zcanvas-field"
+            }
+          },
+          "datatype": "text",
+          "children": [],
+          "id": "zc_field",
+          "type": "field"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {
+                "default": {}
+              },
+              "class": ""
+            },
+            "holder": {
+              "style": {
+                "default": {}
+              },
+              "class": ""
+            },
+            "label": {
+              "style": {
+                "default": {}
+              },
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {}
+              },
+              "fixed": true,
+              "position": {
+                "start_x": 15,
+                "depth": 1,
+                "end_x": 395,
+                "start_y": 238,
+                "width": 380,
+                "height": 67
+              },
+              "class": "zcanvas-field zctextarea"
+            }
+          },
+          "datatype": "text-area",
+          "children": [],
+          "id": "zc_field",
+          "type": "field"
+        }
+      ],
+      "theme": "Custom Layout",
+      "type": "component"
+    },
+    {
+      "ui": {
+        "value": {
+          "style": {
+            "default": {
+              "border": "1px solid rgb(57, 142, 243)"
+            }
+          },
+          "position": {
+            "start_x": 451,
+            "depth": 1,
+            "min_left": 15,
+            "end_x": 850,
+            "start_y": 294,
+            "min_top": 14,
+            "width": 399,
+            "height": 328
+          },
+          "class": "zc-lsection"
+        }
+      },
+      "children": [
+        {
+          "ui": {
+            "autoheight": true,
+            "value": {
+              "style": {
+                "default": {
+                  "font_weight": "700",
+                  "padding": "10px",
+                  "border_right": "0px solid rgb(57, 142, 243)",
+                  "color": "rgba(51,51,51,1)",
+                  "border_left": "0px solid rgb(57, 142, 243)",
+                  "border_bottom": "1px solid rgb(57, 142, 243)",
+                  "font_size": "14px",
+                  "border_top": "0px solid rgb(57, 142, 243)",
+                  "text-align": "left"
+                }
+              },
+              "position": {
+                "start_x": 16,
+                "depth": 1,
+                "end_x": 383,
+                "start_y": 142,
+                "width": 367,
+                "height": 42
+              },
+              "class": "",
+              "value": "<span style=\"color: rgb(57, 142, 243); font-size: 16px;\">ASSET ORIGIN DETAILS</span>"
+            }
+          },
+          "children": [],
+          "theme": "Static Text",
+          "type": "component"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {},
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {}
+              },
+              "fixed": true,
+              "position": {
+                "start_x": 15,
+                "depth": 2,
+                "end_x": 285,
+                "start_y": 14,
+                "width": 270,
+                "height": 114
+              },
+              "theme_class": "default",
+              "class": "zcanvas-field zcbdrbox"
+            }
+          },
+          "datatype": "profileimage",
+          "children": [],
+          "id": "zc_field",
+          "type": "field"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {},
+              "class": ""
+            },
+            "holder": {
+              "style": {},
+              "class": ""
+            },
+            "label": {
+              "style": {},
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {}
+              },
+              "position": {
+                "start_x": 16,
+                "depth": 2,
+                "end_x": 382,
+                "start_y": 202,
+                "width": 366,
+                "height": 20
+              },
+              "theme_class": "default",
+              "class": "zcanvas-field"
+            }
+          },
+          "datatype": "text",
+          "children": [],
+          "id": "zc_field",
+          "type": "field"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {},
+              "class": ""
+            },
+            "holder": {
+              "style": {},
+              "class": ""
+            },
+            "label": {
+              "style": {},
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {}
+              },
+              "position": {
+                "start_x": 17,
+                "depth": 1,
+                "end_x": 382,
+                "start_y": 235,
+                "width": 365,
+                "height": 20
+              },
+              "theme_class": "default",
+              "class": "zcanvas-field"
+            }
+          },
+          "datatype": "text",
+          "children": [],
+          "id": "zc_field",
+          "type": "field"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {},
+              "class": ""
+            },
+            "holder": {
+              "style": {},
+              "class": ""
+            },
+            "label": {
+              "style": {},
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {}
+              },
+              "position": {
+                "start_x": 16,
+                "depth": 1,
+                "end_x": 382,
+                "start_y": 269,
+                "width": 366,
+                "height": 20
+              },
+              "theme_class": "default",
+              "class": "zcanvas-field"
+            }
+          },
+          "datatype": "creator-date",
+          "children": [],
+          "id": "zc_field",
+          "type": "field"
+        }
+      ],
+      "theme": "Custom Layout",
+      "type": "component"
+    },
+    {
+      "ui": {
+        "value": {
+          "style": {
+            "default": {
+              "border": "1px solid rgb(57, 142, 243)"
+            }
+          },
+          "position": {
+            "start_x": 21,
+            "depth": 1,
+            "min_left": 13,
+            "end_x": 434,
+            "start_y": 650,
+            "min_top": 15,
+            "width": 413,
+            "height": 301
+          },
+          "class": "zc-lsection"
+        }
+      },
+      "children": [
+        {
+          "ui": {
+            "autoheight": true,
+            "value": {
+              "style": {
+                "default": {
+                  "font_weight": "700",
+                  "padding": "10px",
+                  "border_right": "0px solid rgb(57, 142, 243)",
+                  "color": "rgba(51,51,51,1)",
+                  "border_left": "0px solid rgb(57, 142, 243)",
+                  "border_bottom": "1px solid rgb(57, 142, 243)",
+                  "font_size": "14px",
+                  "border_top": "0px solid rgb(57, 142, 243)",
+                  "text-align": "left"
+                }
+              },
+              "position": {
+                "start_x": 13,
+                "depth": 1,
+                "end_x": 397,
+                "start_y": 15,
+                "width": 384,
+                "height": 42
+              },
+              "class": "",
+              "value": "<span style=\"color: rgb(57, 142, 243); font-size: 16px;\">ASSET PICTURE AND ATTACHMENTS</span>"
+            }
+          },
+          "children": [],
+          "theme": "Static Text",
+          "type": "component"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {},
+              "class": ""
+            },
+            "holder": {
+              "style": {},
+              "class": ""
+            },
+            "label": {
+              "style": {},
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {}
+              },
+              "position": {
+                "start_x": 13,
+                "depth": 2,
+                "end_x": 396,
+                "start_y": 67,
+                "width": 383,
+                "height": 216
+              },
+              "theme_class": "default",
+              "class": "zcanvas-field zctextarea"
+            }
+          },
+          "datatype": "text-area",
+          "children": [],
+          "id": "zc_field",
+          "type": "field"
+        }
+      ],
+      "theme": "Custom Layout",
+      "type": "component"
+    },
+    {
+      "ui": {
+        "value": {
+          "style": {
+            "default": {
+              "border": "1px solid rgb(57, 142, 243)"
+            }
+          },
+          "position": {
+            "start_x": 451,
+            "depth": 1,
+            "min_left": 9,
+            "end_x": 848,
+            "start_y": 650,
+            "min_top": 12,
+            "width": 397,
+            "height": 301
+          },
+          "class": "zc-lsection"
+        }
+      },
+      "children": [
+        {
+          "ui": {
+            "autoheight": false,
+            "value": {
+              "style": {
+                "default": {
+                  "font_weight": "700",
+                  "padding": "10px",
+                  "border_right": "0px solid rgb(57, 142, 243)",
+                  "color": "rgba(51,51,51,1)",
+                  "border_left": "0px solid rgb(57, 142, 243)",
+                  "border_bottom": "1px solid rgb(57, 142, 243)",
+                  "font_size": "14px",
+                  "border_top": "0px solid rgb(57, 142, 243)",
+                  "text-align": "left"
+                }
+              },
+              "position": {
+                "start_x": 9,
+                "depth": 1,
+                "end_x": 385,
+                "start_y": 12,
+                "width": 376,
+                "height": 42
+              },
+              "class": "",
+              "value": "<span style=\"color: rgb(57, 142, 243); font-size: 16px;\">WARRANTY AND AMC DETAILS</span>"
+            }
+          },
+          "children": [],
+          "theme": "Static Text",
+          "type": "component"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {},
+              "class": ""
+            },
+            "holder": {
+              "style": {},
+              "class": ""
+            },
+            "label": {
+              "style": {},
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {}
+              },
+              "position": {
+                "start_x": 10,
+                "depth": 1,
+                "end_x": 387,
+                "start_y": 60,
+                "width": 377,
+                "height": 20
+              },
+              "theme_class": "default",
+              "class": "zcanvas-field"
+            }
+          },
+          "datatype": "creator-date",
+          "children": [],
+          "id": "zc_field",
+          "type": "field"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {},
+              "class": ""
+            },
+            "holder": {
+              "style": {},
+              "class": ""
+            },
+            "label": {
+              "style": {},
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {}
+              },
+              "position": {
+                "start_x": 10,
+                "depth": 1,
+                "end_x": 386,
+                "start_y": 102,
+                "width": 376,
+                "height": 20
+              },
+              "theme_class": "default",
+              "class": "zcanvas-field"
+            }
+          },
+          "datatype": "creator-date",
+          "children": [],
+          "id": "zc_field",
+          "type": "field"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {},
+              "class": ""
+            },
+            "holder": {
+              "style": {},
+              "class": ""
+            },
+            "label": {
+              "style": {},
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {}
+              },
+              "position": {
+                "start_x": 10,
+                "depth": 1,
+                "end_x": 384,
+                "start_y": 143,
+                "width": 374,
+                "height": 20
+              },
+              "theme_class": "default",
+              "class": "zcanvas-field"
+            }
+          },
+          "datatype": "text",
+          "children": [],
+          "id": "zc_field",
+          "type": "field"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {},
+              "class": ""
+            },
+            "holder": {
+              "style": {},
+              "class": ""
+            },
+            "label": {
+              "style": {},
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {}
+              },
+              "position": {
+                "start_x": 10,
+                "depth": 1,
+                "end_x": 383,
+                "start_y": 180,
+                "width": 373,
+                "height": 20
+              },
+              "theme_class": "default",
+              "class": "zcanvas-field"
+            }
+          },
+          "datatype": "creator-date",
+          "children": [],
+          "id": "zc_field",
+          "type": "field"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {},
+              "class": ""
+            },
+            "holder": {
+              "style": {},
+              "class": ""
+            },
+            "label": {
+              "style": {},
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {}
+              },
+              "position": {
+                "start_x": 11,
+                "depth": 1,
+                "end_x": 383,
+                "start_y": 221,
+                "width": 372,
+                "height": 20
+              },
+              "theme_class": "default",
+              "class": "zcanvas-field"
+            }
+          },
+          "datatype": "creator-date",
+          "children": [],
+          "id": "zc_field",
+          "type": "field"
+        },
+        {
+          "ui": {
+            "field": {
+              "style": {},
+              "class": ""
+            },
+            "holder": {
+              "style": {},
+              "class": ""
+            },
+            "label": {
+              "style": {},
+              "class": ""
+            },
+            "value": {
+              "style": {
+                "default": {}
+              },
+              "position": {
+                "start_x": 11,
+                "depth": 1,
+                "end_x": 382,
+                "start_y": 262,
+                "width": 371,
+                "height": 20
+              },
+              "theme_class": "default",
+              "class": "zcanvas-field"
+            }
+          },
+          "datatype": "text",
+          "children": [],
+          "id": "zc_field",
+          "type": "field"
+        }
+      ],
+      "theme": "Custom Layout",
+      "type": "component"
+    }
+  ],
+  "name": "Custom Layout 2"
+}
