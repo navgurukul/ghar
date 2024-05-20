@@ -16,12 +16,11 @@
     "@hapi/hapi": "^21.3.2",
     "@hapi/inert": "^7.1.0",
     "@hapi/vision": "^7.0.3",
-    "@slack/web-api": "^7.0.2",
-    "cheerio": "^1.0.0-rc.12",
-    "qrcode": "^1.5.3",
-    "google-auth-library": "^9.7.0",
-    "google-spreadsheet": "^4.1.1",
-    "googleapis": "^134.0.0",
+    
+    
+  
+   
+    
     "axios": "^1.6.0",
     "dotenv": "^16.3.1",
     "hapi-swagger": "^17.1.0",
