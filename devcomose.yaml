@@ -12,19 +12,4 @@ services:
     env_file:
       - .env
     network_mode: host
-    # environment:
-    #   DB_HOST: db
-    #   DB_PORT: 5432
-    #   DB_USER: saral
-    #   DB_PASS: postgres
-    #   DB_NAME: main
-    #   REDIS_HOST: redis
-    #   REDIS_PORT: 6379
-#     links:
-#       - db
-#       - redis
-# volumes:
-#   db:
-#     driver: local
-#   cache:
-#     driver: local
+   
