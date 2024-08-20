@@ -8,9 +8,10 @@ services:
     container_name: dev_ghar_container
 
     ports:
-      - "4998:3049"
+      - "3048:3048"
     env_file:
       - .env
+    network_mode: host
     # environment:
     #   DB_HOST: db
     #   DB_PORT: 5432
