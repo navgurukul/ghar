@@ -3,7 +3,7 @@ services:
   ghar:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: devDockerFile
     image : dev_ghar
     container_name: dev_ghar_container
 
