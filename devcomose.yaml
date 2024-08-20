@@ -1,0 +1,30 @@
+version: "3.7"
+services:
+  ghar:
+    build:
+      context: .
+      dockerfile: devDockerFile
+    image : dev_ghar
+    container_name: dev_ghar_container
+
+    ports:
+      - "3048:3048"
+    env_file:
+      - .env
+    network_mode: host
+    # environment:
+    #   DB_HOST: db
+    #   DB_PORT: 5432
+    #   DB_USER: saral
+    #   DB_PASS: postgres
+    #   DB_NAME: main
+    #   REDIS_HOST: redis
+    #   REDIS_PORT: 6379
+#     links:
+#       - db
+#       - redis
+# volumes:
+#   db:
+#     driver: local
+#   cache:
+#     driver: local
