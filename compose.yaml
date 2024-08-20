@@ -11,6 +11,6 @@ services:
       - "4999:3050"
     env_file:
       - .env
-      version: "3.7"
+      
     network_mode: host
     
