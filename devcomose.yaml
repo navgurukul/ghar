@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  ghar:
+    build:
+      context: .
+      dockerfile: devDockerFile
+    image : dev_ghar
+    container_name: dev_ghar_container
+
+    ports:
+      - "3048:3048"
+    env_file:
+      - .env
+    network_mode: host
+   
