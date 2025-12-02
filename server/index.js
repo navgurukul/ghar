@@ -5,12 +5,12 @@ const path = require("path");
 const requireAll = require("require-all");
 const dotenv = require("dotenv");
 
-const config = dotenv.config().parsed;
+dotenv.config(); // Load .env file into process.env (won't overwrite existing vars)
 
 const init = async () => {
   const server = Hapi.server({
-    port: config.PORT,
-    host: "localhost",
+    port: process.env.PORT || 3048,
+    host: "0.0.0.0",
   });
 
   await server.register([swaggerPlugin]);
