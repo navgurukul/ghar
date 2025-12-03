@@ -30,6 +30,8 @@ jobs:
             
             echo "📥 Pulling latest code from dev-ghar branch..."
             git fetch origin
+            # WARNING: The following command will discard ALL local changes without backup.
+            # This is intentional for deployment purposes. Do NOT run if you have uncommitted work you wish to keep.
             git reset --hard origin/dev-ghar
             echo "✅ Code pulled successfully"
             
