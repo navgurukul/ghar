@@ -1,0 +1,59 @@
+name: Deploy to EC2 (Dev)
+
+on:
+  push:
+    branches:
+      - dev-ghar
+
+jobs:
+  deploy:
+    name: Deploy to EC2
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Deploy to EC2
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USERNAME }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          port: 22
+          command_timeout: 30m
+          script: |
+            set -e  # Exit immediately if any command fails
+            
+            echo "📁 Navigating to project directory..."
+            cd /home/ubuntu/ghar || { echo "❌ Failed to cd into /home/ubuntu/ghar"; exit 1; }
+            
+            echo "📥 Pulling latest code from dev-ghar branch..."
+            git fetch origin
+            # WARNING: The following command will discard ALL local changes without backup.
+            # This is intentional for deployment purposes. Do NOT run if you have uncommitted work you wish to keep.
+            git reset --hard origin/dev-ghar
+            echo "✅ Code pulled successfully"
+            
+            echo "🔍 Checking current git status..."
+            git log -1 --oneline
+            
+            echo "🛑 Stopping existing containers..."
+            docker compose -f devcomose.yaml -p ghar-dev down || true
+            echo "✅ Containers stopped"
+            
+            echo "🏗️ Building and starting containers..."
+            docker compose -f devcomose.yaml -p ghar-dev up -d --build
+            echo "✅ Containers started"
+            
+            echo "📊 Checking container status..."
+            docker compose -f devcomose.yaml -p ghar-dev ps
+            
+            echo "📜 Showing last 20 lines of app logs..."
+            sleep 5  # Wait for app to start
+            docker compose -f devcomose.yaml -p ghar-dev logs --tail=20
+            
+            echo "🧹 Cleaning up old images..."
+            docker image prune -f
+            
+            echo "✅ Deployment completed successfully!"
