@@ -1,0 +1,30 @@
+version: "3.7"
+services:
+  mongodb:
+    image: mongo:6.0
+    container_name: ghar_mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    restart: unless-stopped
+
+  ghar:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ghar
+    container_name: ghar_container
+    ports:
+      - "3048:3048"
+    env_file:
+      - .env
+    environment:
+      - mongodbUrl=mongodb://mongodb:27017/
+      - NODE_TLS_REJECT_UNAUTHORIZED=0
+    depends_on:
+      - mongodb
+
+volumes:
+  mongodb_data:
+    

@@ -1,0 +1,31 @@
+version: "3.7"
+services:
+  mongodb_dev:
+    image: mongo:6.0
+    container_name: dev_mongodb
+    ports:
+      - "27018:27017"
+    volumes:
+      - dev_mongodb_data:/data/db
+    restart: unless-stopped
+
+  dev_ghar:
+    build:
+      context: .
+      dockerfile: devDockerFile
+    image: dev_ghar
+    container_name: dev_ghar_container
+    ports:
+      - "3049:3049"
+    env_file:
+      - .env.dev
+    environment:
+      - PORT=3049
+      - mongodbUrl=mongodb://mongodb_dev:27017/
+      - NODE_TLS_REJECT_UNAUTHORIZED=0
+    depends_on:
+      - mongodb_dev
+
+volumes:
+  dev_mongodb_data:
+
